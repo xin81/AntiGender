@@ -1,0 +1,11 @@
+git --git-dir=. --work-tree=. -C . status
+git add src
+git --git-dir=. --work-tree=. add src
+git --git-dir=. --work-tree=. add pdf
+git --git-dir=. --work-tree=. add txt
+git --git-dir=. --work-tree=. add ungender.jar
+git --git-dir=. --work-tree=. add ungender_lib
+git --git-dir=. --work-tree=. commit -m "add some files to this new repository"
+git remote add origin https://github.com/xin81/AntiGender.git
+git push -u origin master
+
